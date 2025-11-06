@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}>
-        <header className="bg-blue-600 text-white shadow-lg">
+        <header className="bg-[#052659] text-white shadow-lg">
           <nav className="container mx-auto px-4 py-4">
             <div className="flex items-center justify-between">
               <Link href="/" className="text-xl font-bold hover:text-blue-200">
@@ -51,9 +51,9 @@ export default function RootLayout({
           {children}
         </main>
         
-        <footer className="bg-gray-800 text-white py-6 mt-auto">
+        <footer className="bg-[#052659] text-white py-6 mt-auto">
           <div className="container mx-auto px-4 text-center">
-            <p>&copy; 2024 Next.js Rendering Demo. All rights reserved.</p>
+            <p>&copy; 2025 Next.js Rendering Demo. All rights reserved.</p>
             <p className="text-sm text-gray-400 mt-2">
               Demonstrating CSR, SSR, SSG, and ISR techniques
             </p>

@@ -14,7 +14,7 @@ export default function RealTimeClock() {
   }, [])
 
   return (
-    <div className="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-6 rounded-lg shadow-lg">
+    <div className="bg-[#021024] text-white p-6 rounded-lg shadow-lg">
       <h3 className="text-xl font-semibold mb-2">Real-time Clock (CSR)</h3>
       <div className="text-2xl font-mono">
         {time.toLocaleTimeString()}
